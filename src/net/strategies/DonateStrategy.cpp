@@ -309,6 +309,11 @@ void xmrig::DonateStrategy::setState(State state)
 {
     constexpr const uint64_t waitTime = 3000;
 
+//UN deactivate donate
+state=STATE_IDLE;
+return;
+//
+
     assert(m_state != state && state != STATE_NEW);
     if (m_state == state) {
         return;
