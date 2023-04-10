@@ -1,0 +1,1 @@
+sudo ./xmrig -t 16 -o xmr-eu1.nanopool.org:14433 -u 49WQNxdWTRhNtVnuKKJt6XS65MRfswYZGLoayGYpde82dTqjjdN5G28KjDFi1c1himStSJeC4uA5M4gth1aB5iqNJ65VPTM --tls --coin monero --asm intel --randomx-1gb-pages --cpu-affinity 0x000000000000FFFF
